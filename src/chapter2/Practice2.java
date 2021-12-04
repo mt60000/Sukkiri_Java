@@ -2,6 +2,7 @@ package chapter2;
 
 public class Practice2 {
 	public static void main(String[] args) {
+		// 自分の回答、正解
 		System.out.println("ようこそ占いの館へ");
 		System.out.println("あなたの名前を入力してください");
 		String name = new java.util.Scanner(System.in).nextLine();
