@@ -26,6 +26,8 @@ public class Array_for4 {
 //				break;
 //			}
 //		}
+		
+		// こうすれば上のswitch文をシンプルにできる
 		for (int i = 0; i < seq.length; i++) {
 			char[] base = {'A', 'T', 'G', 'C'};
 			System.out.print(base[seq[i]] + " ");
