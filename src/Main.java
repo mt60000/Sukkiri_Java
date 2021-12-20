@@ -4,11 +4,21 @@ public class Main {
 		Sword s = new Sword();
 		s.name = "炎の剣";
 		s.damage = 10;
-		Hero h = new Hero();
-		h.name = "ミナト";
-		h.hp = 100;
-		h.sword = s;
-		System.out.println("現在の武器は" + h.sword.name);
+		Hero h1 = new Hero();
+		h1.name = "ミナト";
+		h1.hp = 100;
+		h1.sword = s;
+		System.out.println("現在の武器は" + h1.sword.name);
+		
+		Hero h2 = new Hero();
+		h2.name = "アサカ";
+		h2.hp = 100;
+		Wizard w = new Wizard();
+		w.name = "スガワラ";
+		w.hp = 50;
+		w.heal(h1);
+		w.heal(h2);
+		w.heal(h2);
 		
 		Matango m1 = new Matango();
 		m1.hp = 50;
@@ -22,12 +32,12 @@ public class Main {
 		c.name = "もち";
 		
 		//冒険のはじまり
-		h.slip();
+		h1.slip();
 		c.selfAid();
 		c.pray(3);
 		m1.run();
 		m2.run();
-		h.run();
+		h1.run();
 		
 //		System.out.println("勇者" + h.name + "を生み出しました！");
 //		h.sit(5);
