@@ -3,7 +3,7 @@ public class Hero {
 	String name;
 	int hp;
 	Sword sword;
-	public void attack() {
+	public void attack(Matango m) {
 		System.out.println(this.name + "は" + this.sword.name + "で攻撃した！");
 		System.out.println("敵に" + this.sword.damage + "ポイントのダメージをあたえた！");
 	}
@@ -25,5 +25,8 @@ public class Hero {
 		System.out.println(this.name + "は、逃げ出した！");
 		System.out.println("GAMEOVER");
 		System.out.println("最終HPは" + this.hp + "でした");
+	}
+	public Hero() {
+		System.out.println("Heroのコンストラクタが動作");
 	}
 }

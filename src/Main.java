@@ -20,6 +20,9 @@ public class Main {
 		w.heal(h2);
 		w.heal(h2);
 		
+		SuperHero sh = new SuperHero();
+		sh.run();
+		
 		Matango m1 = new Matango();
 		m1.hp = 50;
 		m1.suffix = 'A';
