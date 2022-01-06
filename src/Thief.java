@@ -14,6 +14,9 @@ public class Thief {
 	public Thief(String name) {
 		this(name, 40);
 	}
+	public Thief() {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
 }
 
 
