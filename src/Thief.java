@@ -1,7 +1,5 @@
 
-public class Thief {
-	String name;
-	int hp;
+public class Thief extends Character {
 	int mp;
 	public Thief(String name, int hp, int mp) {
 		this.name = name;
@@ -14,8 +12,14 @@ public class Thief {
 	public Thief(String name) {
 		this(name, 40);
 	}
+	public void attack(Monster m) {
+		System.out.println(this.name + "の攻撃！");
+		System.out.println("敵に5ポイントのダメージ");
+//		m.hp -= 5;
+	}
+	
 	public Thief() {
-		// TODO 自動生成されたコンストラクター・スタブ
+		
 	}
 }
 

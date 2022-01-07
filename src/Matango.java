@@ -1,6 +1,5 @@
 
-public class Matango {
-	int hp;
+public class Matango extends Monster {
 	final int LEVEL = 10;
 	char suffix;
 	public void run() {
