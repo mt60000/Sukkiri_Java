@@ -11,6 +11,7 @@ public class Practice8 {
 		moneyList[0] = 121902;
 		moneyList[1] = 8302;
 		moneyList[2] = 55100;
+		↑スマートじゃない
 	*/
 		int[] moneyList = {121902, 8302, 55100};
 		for (int i = 0; i < moneyList.length; i++) {
