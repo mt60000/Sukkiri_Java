@@ -7,6 +7,5 @@ public class Main {
 		Wizard w = new Wizard();
 		w.setName("mochi");
 		System.out.println("ウィザードの名前： " + w.getName());
-		
 	}
 }
